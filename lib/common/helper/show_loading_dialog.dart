@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/utils/coloors.dart';
+import 'package:whatsapp_messenger/common/utils/colors.dart';
 
 showLoadingDialog({
   required BuildContext context,
@@ -17,7 +17,7 @@ showLoadingDialog({
             Row(
               children: [
                 const CircularProgressIndicator(
-                  color: Coloors.greenDark,
+                  color: MyColors.greenDark,
                 ),
                 const SizedBox(width: 20),
                 Expanded(
